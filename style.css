@@ -1,0 +1,147 @@
+body{
+    margin: auto;
+    padding: 0;
+    background-color: antiquewhite;
+    font-family: SF Pro Display;
+}
+#chekout{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#chekout_element{
+    
+}
+
+.fram{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 466px;
+    height: 63px;
+}
+
+.toggle{
+    width: 127px;
+    height: 64px;
+    padding: 10px, 12px, 10px, 12px;
+    border-radius: 6px;
+    border: 2px solid #E0E0E0;
+    background-color: #FFFFFF;
+    margin-right: 15px;
+    box-shadow: 0px 2px 4px 0px #00000012;
+}
+
+.toggle img{
+    width: 16px;
+    height: 12px;
+    top: 2px;
+    padding-top: 18px;
+    padding-left: 12px;
+
+}
+.toggle label{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 12px;
+    color: #727F96;
+}
+
+.toggle label:hover{
+    color: #0570DE;
+}
+
+#vector2{
+    /* width: 6.05px;
+    height: 13.48px; */
+
+}
+#vector3{
+    /* width: 9.37px;
+    height: 10.21px;
+    padding-left: 20px; */
+    /* top: 5.79px;
+    left: 6.63px; */
+
+}
+
+#moree#btn{
+    /* width: 40px;
+    height: 64px;
+    border-radius: 6px;
+    border: 2px solid #E0E0E0;
+    box-shadow: 0px 2px 4px 0px #00000012; */
+
+}
+
+#card_number{
+    /* font-family: SF Pro Display;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left; */
+    margin-top: 10px;
+    width: 466px;
+    height: 63px;
+
+}
+
+
+#card_number input{
+    width: 466px;
+    height: 43px;
+    border-radius: 6px;
+    border: 2px;
+    /* justify: space-between; */
+    border: 2px solid #E0E0E0;
+    margin-top: 4px;
+    box-shadow: 0px 2px 4px 0px #00000012;
+
+}
+
+label{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F5B76;
+
+}
+
+#cvc{
+    margin-left: 10px;
+}
+
+#info{
+    
+
+}
+
+
+.inputt{
+    width: 228px;
+    height: 43px;
+    /* padding: 10px, 12px, 10px, 12px; */
+    padding-left: 10px;
+    border-radius: 6px;
+    border: 2px solid #E0E0E0;
+    box-shadow: 0px 2px 4px 0px #00000012;
+}
+
+#postal{
+    margin-left: 10px;
+}
+
+::placeholder{
+    color: #A5ACB8;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
